@@ -12,3 +12,11 @@ print("Chapter 5" in toc) # Is there a Chapter 5?
 cool_beasts = {"octopuses":"tentacles", "dolphins":"fins", "rhinos":"horns"}
 for key, value in cool_beasts.items():
     print("{} have {}".format(key,value))
+
+
+
+#Print "red shirt", "blue shirt"
+wardrobe = {"shirt":["red","blue","white"], "jeans":["blue","black"]}
+for key, values in wardrobe.items():
+	for color in values:
+		print("{} {}".format(color, key))
